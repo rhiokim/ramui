@@ -1,12 +1,12 @@
 {
   "name": "ramui-sum",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "",
   "main": "index.js",
+  "author": "Rhio Kim <rhio.kim@gmail.com>",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
   "license": "ISC"
 }
