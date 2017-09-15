@@ -22,7 +22,7 @@ module.exports = {
     { value: "WIP", name: "🔥 WIP: (:fire:) Work in progress" }
   ],
 
-  scopes: [{ name: "env" }],
+  scopes: [{ name: "button", name: "env" }],
 
   allowCustomScopes: true,
   allowBreakingChanges: ["feat", "fix"]

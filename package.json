@@ -9,5 +9,19 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "workspaces": ["packages/*"]
+  "workspaces": [
+    "packages/*"
+  ],
+  "dependencies": {
+    "cz-customizable": "^5.2.0",
+    "lerna": "^2.1.2"
+  },
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-customizable"
+    },
+    "cz-customizable": {
+      "config": ".cz-config.js"
+    }
+  }
 }
